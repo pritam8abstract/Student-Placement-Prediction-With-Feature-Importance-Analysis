@@ -1,8 +1,5 @@
 # Student-Placement-Prediction-With-Feature-Importance-Analysis
 
-Okay, here's the content converted into a good-looking, README.md compatible format. I've used Markdown for structuring, added code blocks, and tried to maintain the informational flow of the original document.
-
-# Student Placement Prediction: A Machine Learning Approach
 
 **Author:** Dhritabrata Swarnakar
 **Email:** pritamswarnakar21@gmail.com
@@ -102,6 +99,8 @@ print(train_data.dtypes)
 print("\nMissing values in training data:")
 print(train_data.isnull().sum())
 
+---
+```python
 
 The code shows that the data is split across multiple CSV files and includes separate training features, training targets, and test features, which is typical of a Kaggle competition format.
 
