@@ -1,9 +1,8 @@
-# 🎓 Student Placement Prediction: A Machine Learning Approach
+# 🎓 Student Placement Prediction With Feature Important Analysis
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-orange.svg)](https://scikit-learn.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-1.3+-green.svg)](https://pandas.pydata.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > **Predicting student placement outcomes using advanced machine learning techniques to enable targeted interventions and career guidance.**
 
@@ -130,23 +129,17 @@ Applied **4 complementary techniques** for comprehensive feature analysis:
 ### Project Structure
 ```
 placement-prediction/
-├── data/
-│   ├── Train_Features.csv
-│   ├── Train_Target.csv
-│   └── Test_Features.csv
-├── src/
+├── Data/
+├── Images/
+├── Results Final Submission & Result/
+├── codeFiles/
 │   ├── student_placement_model.py
-│   ├── feature_importance_analysis.py
-│   └── preprocessing.py
-├── results/
-│   ├── confusion_matrices/
-│   ├── feature_importance_plots/
-│   └── final_submission.csv
+│   └── feature_importance_analysis.py
 └── README.md
 ```
 
 ### Key Technologies
-- **🐍 Python 3.8+**: Core programming language
+- **🐍 Python 3.11.3**: Core programming language
 - **🔬 scikit-learn**: Machine learning framework
 - **🐼 Pandas**: Data manipulation and analysis
 - **📊 Matplotlib/Seaborn**: Visualization and plotting
@@ -204,9 +197,6 @@ predictor.train_models()
 predictions = predictor.predict(test_data)
 ```
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
 
@@ -216,8 +206,6 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 **Dhritabrata Swarnakar**
 - Email: pritamswarnakar21@gmail.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-
 ---
 
 ⭐ **Star this repository if you found it helpful!** ⭐
